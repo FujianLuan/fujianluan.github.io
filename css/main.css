@@ -17,14 +17,14 @@ body {
 }
 
 .menu{
-  width: 20vw;
-  height: 20vw;
+  width: 120px;
+  height: 120px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   border-radius: 5px;
   overflow: hidden;
 }
 
-.container:before, .container:after {
+/* .container:before, .container:after {
   content: "";
   height: 98%;
   position: absolute;
@@ -46,7 +46,7 @@ body {
   right: -3px;
   top: 1px;
   transform: rotate(1.4deg);
-}
+} */
 
 /* links */
 a:link, a:visited, a:active, a:hover {
