@@ -8,12 +8,20 @@ body {
 .container {
   background: #ffe;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  margin: 100px auto 0;
-  max-width: 400px;
-  min-height: 300px;
-  padding: 200px;
-  position: relative;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.menu{
+  width: 20vw;
+  height: 20vw;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .container:before, .container:after {
