@@ -209,13 +209,16 @@
 	<script type="text/javascript" src="">
 	</script>
 	<script type="text/javascript">
-	var inn =function(){
+	var inn =function(e){
+		console.log('start--');
 		console.log(e.target);
+		console.log(e.crrentTarget);
 		console.log(e);
-		// if(e.target.classList.contains('menu-wrap')){
+		console.log('end--');
+		if(e.target.classList.contains('menu-wrap')){
 			document.querySelector('.sub-container').classList.remove('slideout');
 			document.querySelector('.sub-container').classList.add('slidein')
-		// }
+		}
 		
 	}
 	var out =function(){

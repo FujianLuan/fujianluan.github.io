@@ -8,6 +8,11 @@ body {
   width: 100vw;
   height: 100vh;
 }
+.wrap{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
 
 .container {
   background: #ffe;
