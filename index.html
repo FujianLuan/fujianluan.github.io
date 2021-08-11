@@ -209,13 +209,13 @@
 	<script type="text/javascript" src="">
 	</script>
 	<script type="text/javascript">
-	var inn =function(e){
+	var inn =function(){
 		console.log(e.target);
 		console.log(e);
-		if(e.target.classList.contains('menu-wrap')){
+		// if(e.target.classList.contains('menu-wrap')){
 			document.querySelector('.sub-container').classList.remove('slideout');
 			document.querySelector('.sub-container').classList.add('slidein')
-		}
+		// }
 		
 	}
 	var out =function(){
