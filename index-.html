@@ -1,44 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8"/>
+---
+layout: default
+title: Home
+---
 
-	<!--------------->
-	<!--移动端meta-->
-	<!-------------->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="format-detection" content="telephone=no,email=no" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
-	<meta name="HandheldFriendly" content="true">
-	<!-- 微软的老式浏览器 -->
-	<meta name="MobileOptimized" content="320">
+<div class="home">
 
-	<title>BlogMe</title>
-	<meta name="description" content="blogme"/> 
-	<meta name="keywords" content="blogme"/> 
+  <ul class="posts">
+    {% for post in paginator.posts %}
+    <li>
+      <h1 >{{ post.title }}</h1>
+      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+      {{ post.excerpt }}
+      <div class="continue">
+        <a href="{{ post.url | prepend: site.baseurl }}">&bull;&bull;&bull;</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/global.css">
-</head>
-<body>
-<div class="wrap">
-    <header>
-    </header>
-    <div class="content">
-     welcome,blogme
-	    <div><a href="http://wz.cnblogs.com/my/?tag=%E3%80%8A%E6%8A%80%E6%9C%AF%E6%89%8B%E5%86%8C%E3%80%8B">技术手册</a></div>
-	    <div><a href="http://wz.cnblogs.com/">技术手册</a></div>
-	    <div><a href="../index_artical.html">博文</a></div>
-	    <div><a href="index_artical.html">博文</a></div>
-    </div>
-    <footer>
-    	
-    </footer>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if page == 2 %}
+        <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">prv</a>
+      {% else %}
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prv</a>
+      {% endif %}
+    {% else %}
+      <span class="page-link">prv</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">nxt</a>
+    {% else %}
+      <span class="page-link">nxt</span>
+    {% endif %}
+  </div>
+
 </div>
-<script type="text/javascript" src=""></script>
-<script type="text/javascript">
-</script>
-</body>
-</html>
