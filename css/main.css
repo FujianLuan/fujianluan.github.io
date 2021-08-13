@@ -67,6 +67,14 @@ body {
   animation: kf-slideout 0.3s ease-out 0s 1 reverse forwards;
 }
 
+.slidein-50{
+  animation: kf-slidein-50 0.3s linear 0s 1 reverse both;
+}
+
+.slideout-50{
+  animation: kf-slideout-50 0.3s ease-out 0s 1 reverse forwards;
+}
+
 @keyframes kf-slidein {
   from{
     left: 0vw;
@@ -77,6 +85,24 @@ body {
 }
 
 @keyframes kf-slideout {
+  from{
+    left: 100vw;
+  }
+  to{
+    left:0vw;
+  }
+}
+
+@keyframes kf-slidein-50 {
+  from{
+    left: 0vw;
+  }
+  to{
+    left:100vw;
+  }
+}
+
+@keyframes kf-slideout-50 {
   from{
     left: 100vw;
   }

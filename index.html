@@ -217,7 +217,9 @@
 		console.log('end--');
 		if(e.target.classList.contains('menu-wrap')){
 			document.querySelector('.sub-container').classList.remove('slideout');
-			document.querySelector('.sub-container').classList.add('slidein')
+			document.querySelector('.sub-container').classList.add('slidein');
+			// document.querySelector('.container').classList.remove('slideout-50');
+			// document.querySelector('.container').classList.add('slidein-50');
 		}
 		
 	}
@@ -225,9 +227,11 @@
 		console.log(this);
 		document.querySelector('.sub-container').classList.remove('slidein');
 		document.querySelector('.sub-container').classList.add('slideout');
+		// document.querySelector('.container').classList.remove('slidein-50');
+		// document.querySelector('.container').classList.add('slideout-50');
 	}
 	var box=document.querySelector('.menu-box')
-	window.addEventListener('click',inn)
+	document.addEventListener('click',inn)
 	var navbar=document.querySelector('.navbar')
 	navbar.addEventListener('click',out)
 	</script>
