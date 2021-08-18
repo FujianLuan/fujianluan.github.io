@@ -38,5 +38,6 @@ jobs:
           echo test, and deploy your project.
       - name: Create test file
         run: |
-          touch i.js
+          echo $SIGNING_KEY | base64 -d > ${{ github.workspace }}/key.txt
+          echo ${{ github.workspace }}
           pwd
