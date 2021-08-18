@@ -3,6 +3,7 @@
 }
 html{
   height: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
@@ -17,6 +18,7 @@ body {
 .wrap{
   width: 100vw;
   height: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -37,7 +39,7 @@ body {
   position: absolute;
   top: 0;
   right: 0vw;
-  overflow: hidden;
+  overflow-x: hidden;
   background-size: contain;
 
 }
@@ -58,7 +60,7 @@ body {
   position: absolute;
   top: 0;
   left: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .navbar{
@@ -211,8 +213,9 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 0px 10px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: #fff;
   margin-top: 6px;
 
   text-overflow: -o-ellipsis-lastline;
