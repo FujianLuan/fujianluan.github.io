@@ -37,5 +37,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Create test file
-        run:
-          touch inde.js
+        run: |
+          touch i.js
+          pwd
