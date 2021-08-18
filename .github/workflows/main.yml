@@ -5,12 +5,12 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  schedule:
-    - cron: '10 * * * *'
+#   push:
+#     branches: [ master ]
+#   pull_request:
+#     branches: [ master ]
+#   schedule:
+#     - cron: '10 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -38,6 +38,11 @@ jobs:
           echo test, and deploy your project.
       - name: Create test file
         run: |
-          echo $SIGNING_KEY | base64 -d > ${{ github.workspace }}/key.txt
+          echo 11 ${{ github.workspace }}/key.txt
           echo ${{ github.workspace }}
           pwd
+          touch 1.js
+          ls -l
+          git config --global user.email "215221938@qq.com"
+          git config --global user.name "Fujian Luan"
+          git add .&&git commit -m 'write'
