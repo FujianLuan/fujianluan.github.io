@@ -1,0 +1,783 @@
+[
+    {
+        "title": "综合",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "OverAPI",
+                "url": "http://overapi.com",
+                "icon": ""
+            },
+            {
+                "title": "MDN",
+                "url": "https://developer.mozilla.org/en-US",
+                "icon": ""
+            },
+            {
+                "title": "MDN中文",
+                "url": "https://developer.mozilla.org/zh-CN",
+                "icon": ""
+            },
+            {
+                "title": "MSDN",
+                "url": "https://docs.microsoft.com/zh-cn",
+                "icon": ""
+            },
+            {
+                "title": "Google Developer中国",
+                "url": "https://developers.google.cn",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "浏览器",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Webkit",
+                "url": "https://webkit.org",
+                "icon": ""
+            },
+            {
+                "title": "兼容性查询quick mode",
+                "url": "https://www.quirksmode.org",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "HTML",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "t.mb5u.com",
+                "url": "http://t.mb5u.com/html",
+                "icon": ""
+            },
+            {
+                "title": "国外的一个手册",
+                "url": "https://htmlreference.io",
+                "icon": ""
+            },
+            {
+                "title": "Jade(中文)",
+                "url": "http://www.nooong.com/docs/jade_chinese.htm",
+                "icon": ""
+            },
+            {
+                "title": "Emmet",
+                "url": "https://docs.emmet.io/cheat-sheet",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "CSS",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Css88上的css手册",
+                "url": "http://www.css88.com/book/css",
+                "icon": ""
+            },
+            {
+                "title": "Cssdoyoe",
+                "url": "http://css.doyoe.com",
+                "icon": ""
+            },
+            {
+                "title": "Flex速记",
+                "url": "http://www.runoob.com/w3cnote/flex-grammar.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "CSS预处理器",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Sass(https://www.sass.hk/)",
+                "url": "https://www.sass.hk",
+                "icon": ""
+            },
+            {
+                "title": "Sass(https://www.sasscss.com/)",
+                "url": "https://www.sasscss.com",
+                "icon": ""
+            },
+            {
+                "title": "Less(bootcss上的文档)",
+                "url": "http://www.bootcss.com/p/lesscss",
+                "icon": ""
+            },
+            {
+                "title": "Stylus(张鑫旭博客上的)",
+                "url": "https://www.zhangxinxu.com/jq/stylus",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Bootstrap",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "中文Bootstrap",
+                "url": "http://www.bootcss.com",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "JS",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "自己总结的",
+                "url": "https://www.cnblogs.com/luanfujian/p/9340465.html",
+                "icon": ""
+            },
+            {
+                "title": "Zh.javascript.info",
+                "url": "https://zh.javascript.info",
+                "icon": ""
+            },
+            {
+                "title": "内置本地&BOM&DOM w3school参考手册",
+                "url": "http://www.w3school.com.cn/jsref/index.asp",
+                "icon": ""
+            },
+            {
+                "title": "内置本地&BOM&DOM w3school英文国内镜像",
+                "url": "https://www.quanzhanketang.com/jsref/default.html",
+                "icon": ""
+            },
+            {
+                "title": "ES6",
+                "url": "http://es6.ruanyifeng.com",
+                "icon": ""
+            },
+            {
+                "title": "Babel",
+                "url": "https://babel.bootcss.com",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "TypeScript",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Github.com/microsoft/TypeScript",
+                "url": "https://github.com/microsoft/TypeScript",
+                "icon": ""
+            },
+            {
+                "title": "Runoob",
+                "url": "https://www.runoob.com/typescript/ts-tutorial.html",
+                "icon": ""
+            },
+            {
+                "title": "Tslang.cn",
+                "url": "https://www.tslang.cn",
+                "icon": ""
+            },
+            {
+                "title": "TypeScript Deep Dive",
+                "url": "https://jkchao.github.io/typescript-book-chinese",
+                "icon": ""
+            },
+            {
+                "title": "Ts.xcatliu.com",
+                "url": "https://ts.xcatliu.com",
+                "icon": ""
+            },
+            {
+                "title": "Ts-node",
+                "url": "https://typestrong.org/ts-node",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Flow",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Flow.org/en/docs",
+                "url": "https://flow.org/en/docs",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "JQuery",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Css88上的jquery手册",
+                "url": "http://www.css88.com/jqapi-1.9",
+                "icon": ""
+            },
+            {
+                "title": "中文版手册",
+                "url": "https://www.jquery123.com",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Backbone Underscore",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Backbone",
+                "url": "https://www.html.cn/doc/backbone",
+                "icon": ""
+            },
+            {
+                "title": "underscore",
+                "url": "https://www.bootcss.com/p/underscore",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Vue",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Vue",
+                "url": "https://cn.vuejs.org/v2/guide",
+                "icon": ""
+            },
+            {
+                "title": "Vuex",
+                "url": "https://vuex.vuejs.org/zh",
+                "icon": ""
+            },
+            {
+                "title": "Vue-router",
+                "url": "https://router.vuejs.org/zh",
+                "icon": ""
+            },
+            {
+                "title": "Vue-resource",
+                "url": "https://github.com/pagekit/vue-resource",
+                "icon": ""
+            },
+            {
+                "title": "Elementui",
+                "url": "http://element-cn.eleme.io/#/zh-CN/component/installation",
+                "icon": ""
+            },
+            {
+                "title": "Nuxt.js",
+                "url": "https://zh.nuxtjs.org/guide",
+                "icon": ""
+            },
+            {
+                "title": "Pm2",
+                "url": "http://pm2.keymetrics.io/docs/usage/quick-start",
+                "icon": ""
+            },
+            {
+                "title": "Mintui",
+                "url": "https://mint-ui.github.io/#!/zh-cn",
+                "icon": ""
+            },
+            {
+                "title": "Vant",
+                "url": "https://youzan.github.io/vant/#/zh-CN/intro",
+                "icon": ""
+            },
+            {
+                "title": "Axios",
+                "url": "https://github.com/axios/axios",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "React",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "React",
+                "url": "https://reactjs.org",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Angular",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Angular(英文)",
+                "url": "https://angular.io",
+                "icon": ""
+            },
+            {
+                "title": "Angular(中文)",
+                "url": "https://www.angular.cn",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Electron",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Electronjs",
+                "url": "http://www.electronjs.org/docs",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Hybird APP",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Cordova",
+                "url": "https://cordova.apache.org",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "前端构建",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Gulp(中文)",
+                "url": "https://www.gulpjs.com.cn",
+                "icon": ""
+            },
+            {
+                "title": "Webpack(中文)",
+                "url": "https://www.webpackjs.com/concepts",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Node及包管理",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Runoob.com/nodejs/nodejs-tutorial.html",
+                "url": "https://www.runoob.com/nodejs/nodejs-tutorial.html",
+                "icon": ""
+            },
+            {
+                "title": "Nodejs.cn",
+                "url": "http://nodejs.cn",
+                "icon": ""
+            },
+            {
+                "title": "Express",
+                "url": "https://www.expressjs.com.cn",
+                "icon": ""
+            },
+            {
+                "title": "Yarn",
+                "url": "https://www.yarnpkg.com/zh-Hans/docs/cli",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "代码规范",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "JSLint",
+                "url": "http://www.jslint.com",
+                "icon": ""
+            },
+            {
+                "title": "JSHint",
+                "url": "https://jshint.com",
+                "icon": ""
+            },
+            {
+                "title": "ESLint",
+                "url": "https://eslint.org/docs/user-guide/getting-started",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "版本控制",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Git",
+                "url": "https://git-scm.com",
+                "icon": ""
+            },
+            {
+                "title": "Runoob.com/svn/svn-tutorial.html",
+                "url": "https://www.runoob.com/svn/svn-tutorial.html",
+                "icon": ""
+            },
+            {
+                "title": "Git廖雪峰",
+                "url": "https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "PM2",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "pm2",
+                "url": "https://pm2.keymetrics.io/docs/usage/quick-start/#cheatsheet",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "C++",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Zh.cppreference.com",
+                "url": "https://zh.cppreference.com",
+                "icon": ""
+            },
+            {
+                "title": "Cplusplus.com",
+                "url": "http://www.cplusplus.com",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Windows编程",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "windows api for vb",
+                "url": "http://www.office-cn.net/t/api/index.html?web.htm",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Java",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "JavaSe 官方文档",
+                "url": "https://docs.oracle.com/javase/tutorial/index.html",
+                "icon": ""
+            },
+            {
+                "title": "JavaSe API 8",
+                "url": "https://docs.oracle.com/javase/8/docs/api/index.html",
+                "icon": ""
+            },
+            {
+                "title": "Java 集合框架 官方文档及APIs",
+                "url": "https://docs.oracle.com/javase/6/docs/technotes/guides/collections/index.html",
+                "icon": ""
+            },
+            {
+                "title": "JavaEE（5、6、7） 官方文档",
+                "url": "https://docs.oracle.com/javaee/7/",
+                "icon": ""
+            },
+            {
+                "title": "菜鸟教程Java速查",
+                "url": "http://www.runoob.com/java/java-tutorial.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "JSP",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "菜鸟教程-JSP",
+                "url": "http://www.runoob.com/jsp/jsp-tutorial.html",
+                "icon": ""
+            },
+            {
+                "title": "CTLIB上的JavaWeb教程",
+                "url": "https://www.ctolib.com/docs//sfile/Heart-First-JavaWeb/index.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "FreeMarker",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Freemarker",
+                "url": "http://freemarker.foofun.cn/toc.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Servlet",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "菜鸟教程-Servlet",
+                "url": "http://www.runoob.com/servlet/servlet-tutorial.html",
+                "icon": ""
+            },
+            {
+                "title": "CTLIB上的Servlet教程",
+                "url": "https://www.ctolib.com/docs-servlet-tutorial-c-index.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Struts2",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Struts2官方文档",
+                "url": "https://struts.apache.org/index.html",
+                "icon": ""
+            },
+            {
+                "title": "自己总结的大体框架",
+                "url": "https://www.cnblogs.com/luanfujian/p/9552646.html",
+                "icon": ""
+            },
+            {
+                "title": "CTLIB上的Struts2教程",
+                "url": "https://www.ctolib.com/docs-struts_2-c-index.html",
+                "icon": ""
+            },
+            {
+                "title": "W3CSchool上的（同上）",
+                "url": "https://www.w3cschool.cn/struts_2",
+                "icon": ""
+            },
+            {
+                "title": "Struts2博客",
+                "url": "https://www.cnblogs.com/whgk/category/964133.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Hibernate",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "http://www.cnblogs.com/whgk/category/910622.html",
+                "url": "http://www.cnblogs.com/whgk/category/910622.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Spring",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "W3C上的Spring教程",
+                "url": "https://www.w3cschool.cn/wkspring",
+                "icon": ""
+            },
+            {
+                "title": "CTLIB上的Spring教程",
+                "url": "https://www.ctolib.com/docs-wkspring-c-index.html",
+                "icon": ""
+            },
+            {
+                "title": "博客",
+                "url": "https://blog.csdn.net/acmman/article/category/2877839/1",
+                "icon": ""
+            },
+            {
+                "title": "Spring官方API",
+                "url": "https://docs.spring.io/spring/docs/current/javadoc-api/overview-summary.html",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Mybatis",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "官方文档",
+                "url": "http://www.mybatis.org/mybatis-3/zh/index.html",
+                "icon": ""
+            },
+            {
+                "title": "文摘",
+                "url": "https://wz.cnblogs.com/my/MyBatis",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Android",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Android APIs and Guide",
+                "url": "https://developer.android.google.cn/guide",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "Linux命令查询",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "Man.linuxde.net",
+                "url": "http://man.linuxde.net/",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "配置",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "YAML",
+                "url": "https://yaml.org",
+                "icon": ""
+            },
+            {
+                "title": "JSON",
+                "url": "http://www.json.org",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "软件工程",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "语义化版本控制",
+                "url": "https://semver.org/lang/zh-CN",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "英语语法",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "可可英语的英语语法",
+                "url": "http://www.kekenet.com/grammar",
+                "icon": ""
+            },
+            {
+                "title": "英语语法网",
+                "url": "http://www.yygrammar.com",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "正则",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "正则速查",
+                "url": "https://www.jb51.net/tools/regexsc.htm",
+                "icon": ""
+            },
+            {
+                "title": "MDN正则教程",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions",
+                "icon": ""
+            },
+            {
+                "title": "MDN正则教程中文版",
+                "url": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions",
+                "icon": ""
+            },
+            {
+                "title": "正则可视化Debuggex",
+                "url": "https://www.debuggex.com/",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "title": "哲学",
+        "url": "",
+        "icon": "",
+        "children": [
+            {
+                "title": "MIT希腊罗马经典",
+                "url": "http://classics.mit.edu/index.html",
+                "icon": ""
+            },
+            {
+                "title": "IEP",
+                "url": "https://www.iep.utm.edu",
+                "icon": ""
+            },
+            {
+                "title": "马哲文库",
+                "url": "https://www.marxists.org/chinese/index.html",
+                "icon": ""
+            }
+        ]
+    }
+]
