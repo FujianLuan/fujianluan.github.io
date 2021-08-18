@@ -42,4 +42,6 @@ jobs:
           echo ${{ github.workspace }}
           pwd
           ls -l
+          git config --global user.email "215221938@qq.com"
+          git config --global user.name "Fujian Luan"
           git add .&&git commit -m 'write'
