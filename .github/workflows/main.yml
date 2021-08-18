@@ -42,3 +42,4 @@ jobs:
           echo ${{ github.workspace }}
           pwd
           ls -l
+          git add .&&git commit -m 'write'
