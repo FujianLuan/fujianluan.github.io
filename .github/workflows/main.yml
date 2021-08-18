@@ -9,8 +9,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  schedule:
-    - cron: '10 * * * *'
+#   schedule:
+#     - cron: '10 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -38,6 +38,6 @@ jobs:
           echo test, and deploy your project.
       - name: Create test file
         run: |
-          echo $SIGNING_KEY | base64 -d > ${{ github.workspace }}/key.txt
+          echo 11 | base64 -d > ${{ github.workspace }}/key.txt
           echo ${{ github.workspace }}
           pwd
