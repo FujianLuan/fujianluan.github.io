@@ -39,7 +39,7 @@ body {
   position: absolute;
   top: 0;
   right: 0vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-size: contain;
 
 }
@@ -60,7 +60,7 @@ body {
   position: absolute;
   top: 0;
   left: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .navbar{
