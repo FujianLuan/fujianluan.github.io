@@ -5,10 +5,10 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+#   push:
+#     branches: [ master ]
+#   pull_request:
+#     branches: [ master ]
 #   schedule:
 #     - cron: '10 * * * *'
 
@@ -41,6 +41,7 @@ jobs:
           echo 11 ${{ github.workspace }}/key.txt
           echo ${{ github.workspace }}
           pwd
+          touch 1.js
           ls -l
           git config --global user.email "215221938@qq.com"
           git config --global user.name "Fujian Luan"
