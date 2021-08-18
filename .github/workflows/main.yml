@@ -41,3 +41,4 @@ jobs:
           echo 11 ${{ github.workspace }}/key.txt
           echo ${{ github.workspace }}
           pwd
+          ls -l
