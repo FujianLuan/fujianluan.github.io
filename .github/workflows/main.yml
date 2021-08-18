@@ -38,6 +38,6 @@ jobs:
           echo test, and deploy your project.
       - name: Create test file
         run: |
-          echo 11 | base64 -d > ${{ github.workspace }}/key.txt
+          echo 11 ${{ github.workspace }}/key.txt
           echo ${{ github.workspace }}
           pwd
