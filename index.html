@@ -27,73 +27,73 @@
 </head>
 
 <body>
-	<div class="wrap">
+	<div class="wrap" >
 		<header>
 		</header>
-		<div class="container">
+		<div class="container" ondblclick="console.log(event);console.log(e);">
 
 			<div class="menu-box">
 				<div class="menu-wrap">
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
 				</div>
 				<div class="title">文件夹</div>
 			</div>
 			<div class="menu-box">
 				<div class="menu-wrap">
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
 				</div>
 				<div class="title">浏览器</div>
 			</div>
 			<div class="menu-box">
 				<div class="menu-wrap">
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
-					<div class="menu">
-						<a>每</a>
+					<div class="menu ">
+						<a class="menu-wrap-a">每</a>
 					</div>
 				</div>
 				<div class="title">浏览器</div>
@@ -178,28 +178,29 @@
 				<a href="http://meiriyiwen.com">每</a>
 				<div class="title">每日一文</div>
 			</div>
-			<div class="sub-container">
-				<div class="navbar">返回</div>
-				<div class="menu">
-					<a href="http://meiriyiwen.com">每</a>
-					<div class="title">每日一文</div>
-				</div>
-				<div class="menu">
-					<a href="http://meiriyiwen.com">每</a>
-					<div class="title">每日一文</div>
-				</div>
-				<div class="menu">
-					<a href="http://meiriyiwen.com">每</a>
-					<div class="title">每日一文</div>
-				</div>
-				<div class="menu">
-					<a href="http://meiriyiwen.com">每</a>
-					<div class="title">每日一文</div>
-				</div>
-				<div class="menu">
-					<a href="http://meiriyiwen.com">每</a>
-					<div class="title">每日一文</div>
-				</div>
+			
+		</div>
+		<div class="sub-container">
+			<div class="navbar">返回</div>
+			<div class="menu">
+				<a href="http://meiriyiwen.com">每</a>
+				<div class="title">每日一文</div>
+			</div>
+			<div class="menu">
+				<a href="http://meiriyiwen.com">每</a>
+				<div class="title">每日一文</div>
+			</div>
+			<div class="menu">
+				<a href="http://meiriyiwen.com">每</a>
+				<div class="title">每日一文</div>
+			</div>
+			<div class="menu">
+				<a href="http://meiriyiwen.com">每</a>
+				<div class="title">每日一文</div>
+			</div>
+			<div class="menu">
+				<a href="http://meiriyiwen.com">每</a>
+				<div class="title">每日一文</div>
 			</div>
 		</div>
 		<footer>
@@ -215,11 +216,11 @@
 		console.log(e.crrentTarget);
 		console.log(e);
 		console.log('end--');
-		if(e.target.classList.contains('menu-wrap')){
+		if(e.target.classList.contains('menu-wrap')||e.target.classList.contains('menu-wrap-a')){
 			document.querySelector('.sub-container').classList.remove('slideout');
 			document.querySelector('.sub-container').classList.add('slidein');
-			// document.querySelector('.container').classList.remove('slideout-50');
-			// document.querySelector('.container').classList.add('slidein-50');
+			document.querySelector('.container').classList.remove('slideout-50');
+			document.querySelector('.container').classList.add('slidein-50');
 		}
 		
 	}
@@ -227,8 +228,8 @@
 		console.log(this);
 		document.querySelector('.sub-container').classList.remove('slidein');
 		document.querySelector('.sub-container').classList.add('slideout');
-		// document.querySelector('.container').classList.remove('slidein-50');
-		// document.querySelector('.container').classList.add('slideout-50');
+		document.querySelector('.container').classList.remove('slidein-50');
+		document.querySelector('.container').classList.add('slideout-50');
 	}
 	var box=document.querySelector('.menu-box')
 	document.addEventListener('click',inn)

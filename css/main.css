@@ -1,16 +1,19 @@
 *{
   box-sizing: border-box;
 }
+html{
+  height: 100%;
+}
 body {
   font-family: monospace;
   margin: 0px 0px;
   background: url("../images/bg.png");
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 .wrap{
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -19,14 +22,17 @@ body {
   /* background-color: transparent; */
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   width: 100vw;
-  height: 100vh;
+  /* height: 100%; */
+  min-height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
   flex-wrap: wrap;
   padding: 5vh 0;
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0vw;
 
 }
 
@@ -35,7 +41,8 @@ body {
   /* background-color: transparent; */
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   width: 100vw;
-  height: 100vh;
+  /* height: 100%; */
+  min-height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -60,19 +67,19 @@ body {
 }
 
 .slidein{
-  animation: kf-slidein 0.3s linear 0s 1 reverse both;
+  animation: kf-slidein 0.2s ease-in 0s 1 reverse both;
 }
 
 .slideout{
-  animation: kf-slideout 0.3s ease-out 0s 1 reverse forwards;
+  animation: kf-slideout 0.2s ease-out 0s 1 reverse forwards;
 }
 
 .slidein-50{
-  animation: kf-slidein-50 0.3s linear 0s 1 reverse both;
+  animation: kf-slidein-50 0.09s ease-in 0s 1 reverse both;
 }
 
 .slideout-50{
-  animation: kf-slideout-50 0.3s ease-out 0s 1 reverse forwards;
+  animation: kf-slideout-50 0.09s ease-out 0s 1 reverse forwards;
 }
 
 @keyframes kf-slidein {
@@ -95,25 +102,25 @@ body {
 
 @keyframes kf-slidein-50 {
   from{
-    left: 0vw;
+    right: 50vw;
   }
   to{
-    left:100vw;
+    right:0vw;
   }
 }
 
 @keyframes kf-slideout-50 {
   from{
-    left: 100vw;
+    right: 0vw;
   }
   to{
-    left:0vw;
+    right:50vw;
   }
 }
 
 .menu{
   width: 25%;
-  height: 90px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -149,7 +156,7 @@ body {
 
 .menu-box{
   width: 25%;
-  height: 90px;
+  height: 120px;
   display: flex;
   align-items: center;
   flex-direction: column;
