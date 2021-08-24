@@ -31,9 +31,10 @@
 	<div class="wrap">
 		<header>
 		</header>
-		<div class="container" ondblclick="console.log(event);console.log(e);">
+		<div class="container-wrap">
+			<div class="container" ondblclick="console.log(event);console.log(e);">
 
-			<!-- <div class="menu-box">
+				<!-- <div class="menu-box">
 				<div class="menu-wrap">
 					<div class="menu ">
 						<a class="menu-wrap-a">每</a>
@@ -52,6 +53,7 @@
 				<div class="title">每日一文</div>
 			</div> -->
 
+			</div>
 		</div>
 		<div class="sub-container">
 			<div class="navbar">返回</div>
@@ -63,6 +65,7 @@
 		<footer>
 
 		</footer>
+		<a style="position: fixed; top: 0; right: 0;" href="https://github.com/fujianluan"><img src="https://github.blog/wp-content/uploads/2008/12/forkme_right_red_aa0000.png?resize=149%2C149" alt="Fork me on GitHub" width="149" height="149" class="attachment-full size-full" data-recalc-dims="1" /></a>
 	</div>
 	<script type="text/javascript" src="">
 	</script>
@@ -188,7 +191,8 @@
 								console.log('出错');
 							}
 							var imgUrl = 'url(' + data1.images[0].url + ')';
-							$('.container').css({ 'background-image': imgUrl });
+							// $('.container').css({ 'background-image': imgUrl });
+							$('body').css({ 'background': imgUrl + '0/cover fixed' });
 						}
 					})
 				}
